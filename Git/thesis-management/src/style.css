@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: cornsilk;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    border: 1px solid black;
+    padding: 10px;
+    min-width: 25em;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#loginForm label, button {
+    margin-top: 15px;
+}
+
+#loginForm label, button {
+    margin-top: 15px;
+}
+
+#loginForm * {
+    padding: 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    max-height: 15vh;
+    background-color: lightblue;
+    padding: 1rem 0;
+}
+
+footer img {
+    margin-left: 10vw;
+    width: 300px;
+    padding: 0.5rem 2rem;
+    background: white;
+    border-radius: 3rem;
+}

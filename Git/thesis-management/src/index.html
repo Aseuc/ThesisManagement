@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script defer src="database.js"></script>
+    <script defer src="script.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <title>Thesis Management Tool</title>
+</head>
+<body>
+<header>
+    <h1>Herzlich Willkommen!</h1>
+</header>
+<main>
+    <div id="container">
+        <form action="app/main/" id="loginForm">
+            <label for="username">Nutzername:</label> <input autofocus id="username" required type="text">
+            <label for="password">Passwort:</label> <input id="password" required type="password">
+            <button type="submit">Log in</button>
+            <button onclick="openRegisterSite()" id ="registerButton">Registrieren!</button>
+        </form>
+        <p id="status"></p>
+    </div>
+</main>
+<footer>
+    <img alt="wiso-image" src="img/wiso.png">
+</footer>
+</body>
+</html>

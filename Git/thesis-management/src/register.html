@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script defer src="database.js"></script>
+    <script defer src="register.js"></script>
+    <link href="style.css" rel="stylesheet">
+
+    <title>Thesis Management Tool</title>
+</head>
+<body>
+<header>
+    <h1>Registrierung!</h1>
+</header>
+<main>
+    <div id="container">
+        <form action="app/main/" id="loginForm">
+            
+            <label for="username">Nutzername:</label> <input autofocus id="username" required type="text">
+      
+            <label for="fistname">Vorname: </label> <input id="firstname" required type="text">
+      
+            <label for="lastname">Nachname: </label> <input id="lastname" required type="text">
+    
+            <label for="password">Passwort:</label> <input id="password" required type="password">
+
+            <label for = "verification">Passwort bestätigen: </label> <input id = "verification" required type="password">
+      
+            <label for="email">E-Mail:</label> <input id="email" required type="email">
+      
+            <button id ="submitButton" onclick="submitRegistration()">Submit</button>
+        </form>
+        <div id="status"></div>
+    </div>
+</main>
+<footer>
+    <img alt="wiso-image" src="img/wiso.png">
+</footer>
+</body>
+</html>
